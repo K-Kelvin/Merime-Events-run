@@ -203,7 +203,7 @@ nav .navbar-nav li .nav-btn {
 }
 
 .footer {
-  background-color: #5d65b8;
+  background: url("../img/wickedbackground.svg");
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
