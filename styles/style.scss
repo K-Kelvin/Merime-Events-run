@@ -1,0 +1,201 @@
+nav{
+    background-color: white !important;
+    box-shadow: none !important;
+    .navbar-brand{
+        color: #1a237e !important;
+        img{
+            height:10vh;
+            width: auto;
+        }
+    }
+    .navbar-nav{
+        li{
+            a{  
+                font-size: 17px;
+                color: #1a237e !important;
+            }
+
+            .nav-btn{
+                color: white !important;
+            }
+        }
+    }
+}
+.hero-sec{
+    background-color: #fff;
+   
+    .hero-cont1{
+        .hc-tt{
+            font-size: 45px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1a237e;
+        }
+        .hh-cta{
+            a.btn-cta{
+                color: white;
+                background-color: #d50000;
+                border-radius: 50px;
+                box-shadow: none;
+            }
+            a.btn-cta:hover{
+                color: #d50000;
+                background-color:#fff;
+                border:  1px solid #d50000;
+                border-radius: 50px;
+                box-shadow: none;
+            }
+        }
+    }
+    .hero-cot2{
+        img{
+            height: 70vh;
+            width: 70vh;
+        }
+    }
+}
+.offer-sec{
+    .cont-off{
+        background-color: #5d65b8;
+        border-radius: 10px;
+        .label{
+            color: #fff;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .off-tt{
+            color: white;
+            font-weight: 800;
+            font-size: 17px;
+        }
+        .timer-sec{
+            padding: 5px;
+            .timer-box{
+                background-color: white;
+                padding: 10px;
+                border-radius: 7px;
+            }
+            .colon{
+                color: white;
+                font-size: 20px !important;
+                padding: 5px;
+            }
+        }
+    }
+}
+.main-body{
+    .main-c{
+        .main-c1{
+            width: 70%;
+            padding: 5px;
+            h3{
+                span{
+                    color: #1a237e;
+                    
+                }
+
+                font-size: 40px;
+                color: #424242;
+                font-weight: bold;
+            }
+            .mb-cta{
+                a{
+                    background-color: #1a237e;
+                    border-radius: 25px;
+                    
+                }
+            }
+        }
+        .main-c2{
+            img{
+                height: 60vh;
+                width: auto;
+            }
+        }
+    }
+}
+.qt-tour{
+    .qtt-acc{
+        .indicators{
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .one,.two,.three{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #1a237e;
+                background-color: #ffffff;
+                height: 7vh;
+                width: 7vh;
+                border:  4px solid #1a237e;
+                border-radius:  50px;
+            }
+        }
+        .qt-cards{
+            .card{
+                padding: 10px;
+                border: none;
+
+                .card-title{
+                  .ct-tt{
+                    color: #1a237e;
+                    font-size: 20px;
+                    font-weight: bolder;
+                  }
+                }
+            }
+        }
+    }
+}
+.v-acc{
+    background: url('../img/abstract.jpg');
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    .cta-vc{
+        a{
+            color: white;
+            background-color: #d50000;
+            border-radius: 50px;
+            box-shadow: none;
+        }
+    }
+}
+.vd-showcase{
+    h2{
+        color: #1a237e;
+      }
+      .card{
+          background-color: #fff;
+          border-radius: 10px;
+          border: none;
+          box-shadow:  0px 4px 4px 2px rgba(0,0,0,0.1);
+          height: 250px;
+          width: 350px;
+          .card-title{
+              color: #d50000;
+              font-size: 15px !important;
+          }
+      }
+}
+.price-cards{
+    .card{
+        height: 60vh;
+        border: none;
+        border-radius: 10px;
+    }
+    .card:hover{
+        box-shadow: 1px 4px 4px 2px rgba(0,0,0,0.1);
+        transform: scale(1);
+    }
+}
+
+.footer{
+    background-color: #5d65b8;
+    color: white;
+}
