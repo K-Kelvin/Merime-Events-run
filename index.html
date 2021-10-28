@@ -8,6 +8,7 @@
 	<meta name="keywords" content="Events Management, Project Management, Leasing System, IT companies in Kilifi, Kilifi County, Merime, Vehicles in Kilifi, Hire In Kilifi, IT companies in Kenya" />
 	<meta name="author" content="Merime Solutions" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="vendor/jquery/jquery.min.js"></script>
 	<link rel="shortcut icon" href="hir/images/fire.png" type="image/x-icon" />
 	<link href="assets/aos/aos.css" rel="stylesheet" />
 	<!-- added page icon -->
@@ -20,7 +21,7 @@
 
 <body class="text-dark bg-light">
 	<!-- style="background : url('img/bg.png'); width: 100%!important;"-->
-	<nav class="navbar navbar-expand-lg navbar-light" id="top-navbar">
+	<nav class="navbar navbar-expand-lg  navbar-light" id="top-navbar">
 		<div class="container text-white">
 			<a href="index.html" class="navbar-brand">
 				<img src="img/logo.png" alt="" class="navbar-brand-img">
@@ -30,28 +31,33 @@
 				<img src="img/logo.png" alt="image" style="width: 40px" class="image-fluid" />
 				<h4 class="logo-text text-danger">Merime Events-run</h4>
 			</div> -->
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+			<button class="navbar-toggler" type="button" id="nav-toggler">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navmenu">
-				<ul class="navbar-nav ms-auto fw-bold">
+			<div class="navbar-show navbar-collapse d-none" id="navmenu">
+				<div class="close-btn text-end">
+					<button class="navbar-toggler" id="close" type="button" id="nav-toggler">
+						<i class="fa fa-bars"></i>
+					</button>
+				</div>
+				<ul class="navbar-nav nav-loc ms-auto fw-bold">
 					<li class="nav-item">
-						<a href="hir/login.php" class="nav-link  mx-2" style="border-radius: 20px">Home</a>
+						<a href="#" class="nav-link  mx-2" style="border-radius: 20px">Home</a>
 					</li>
 					<li class="nav-item">
-						<a href="hir/login.php" class="nav-link  mx-2" style="border-radius: 20px">About us</a>
+						<a href="#" class="nav-link  mx-2" style="border-radius: 20px">About us</a>
 					</li>
 					<li class="nav-item">
-						<a href="hir/login.php" class="nav-link  mx-2" style="border-radius: 20px">Services</a>
+						<a href="#" class="nav-link  mx-2" style="border-radius: 20px">Services</a>
 					</li>
 					<li class="nav-item">
-						<a href="hir/login.php" class="nav-link  mx-2" style="border-radius: 20px">Vendor</a>
+						<a href="#" class="nav-link  mx-2" style="border-radius: 20px">Vendor</a>
 					</li>
 					<li class="nav-item">
-						<a href="demo.php" class="nav-link  mx-2" style="border-radius: 20px">Free trial</a>
+						<a href="#" class="nav-link  mx-2" style="border-radius: 20px">Free trial</a>
 					</li>
 					<li class="nav-item">
-						<a href="" class="text-light nav-btn btn btn-primary">
+						<a href="#" class="text-light nav-btn btn btn-primary">
 							Login 
 						</a>
 					</li>
@@ -102,7 +108,7 @@
 					</span>
 					<div class="timer-box" id="hours">
 						<h1 class="tt-cont">
-							07
+							13
 						</h1>
 					</div>
 					<span class="colon">
@@ -110,7 +116,7 @@
 					</span>
 					<div class="timer-box" id="minutes">
 						<h1 class="tt-cont">
-							07
+							58
 						</h1>
 					</div>
 				</div>
@@ -515,7 +521,7 @@
 						<h3 class="text-left p-2 ">Useful Links</h3>
 						<ul class="navbar-nav ms-auto fw-bold text-dark">
 							<li class="nav-item">
-								<a href="hir/login.php" class="nav-link h5 text-dark">Login</a>
+								<a href="#" class="nav-link h5 text-dark">Login</a>
 							</li>
 							<li class="nav-item text-white">
 								<a href="hir/register.php" class="nav-link h5 text-dark">Register</a>
@@ -538,9 +544,10 @@
 		</div>
 	</section>
 	<!-- scripts -->
-
+	<script src="script/nav.js"></script>
+	<script src="vendor/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 	<!-- bts -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	
 	
 
 </html>
