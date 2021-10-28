@@ -2,7 +2,7 @@
 
     $("#nav-toggler").click(function(){
         $('.navbar-show').removeClass('d-none')
-        $('.navbar-show').animate({width: 350})         
+        $('.navbar-show').animate({width: 350 })         
     })
 
     $('#close').click(function(){
